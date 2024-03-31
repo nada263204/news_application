@@ -3,9 +3,8 @@ import 'package:news_application/api_service.dart';
 
 void main() {
   try {
-  APIServices.getSources("sports");
-}catch (e){
-}
+    APIServices.getSources("sports");
+  } catch (e) {}
   runApp(const MyApp());
 }
 
